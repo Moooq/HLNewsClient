@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+    <ImageView
+        android:id="@+id/cancel_e_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cancel"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/linearLayout"
+        android:clickable="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/title"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/log_title"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verify_mail"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/log_title"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:background="@color/title"
+        android:id="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:id="@+id/rg_email"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:hint="@string/your_email"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:layout_above="@+id/textView3"
+            android:layout_alignEnd="@+id/vf_code"
+            android:layout_alignStart="@+id/vf_code"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Send"
+            android:background="@drawable/rg_buttom"
+            android:id="@+id/button2"
+            android:clickable="true"
+            android:layout_above="@+id/vf_code"
+            android:layout_marginBottom="10dp"
+            android:layout_alignStart="@+id/btn_submit_rg"
+            android:layout_alignEnd="@+id/btn_submit_rg" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textView3"
+            android:layout_above="@+id/button2"
+            android:layout_centerHorizontal="true" />
+        <EditText
+            android:id="@+id/vf_code"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="@string/verify_code"
+            android:singleLine="true"
+            android:ems="4"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_above="@+id/btn_submit_rg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp" />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="@string/submit"
+            android:textColor="@color/title"
+            android:background="@drawable/em_button"
+            android:id="@+id/btn_submit_rg"
+            android:layout_marginBottom="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

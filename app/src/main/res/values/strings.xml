@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">HLNews</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="apple">Apple</string>
+    <string name="international">International</string>
+    <string name="home">Home</string>
+    <string name="mobile">Moblie</string>
+    <string name="vr">VR</string>
+    <string name="it">IT</string>
+    <string name="fail">Fail</string>
+    <string name="military">Military</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Submit</string>
+    <string name="action_github">Github</string>
+
+    <string name="hot_title">Booooooom</string>
+    <string name="text_title">Title</string>
+    <string name="hot_content">Disclosures...</string>
+    <string name="max_pics">3 pictures at most</string>
+    <string name="hot_pic_del">Deleted successfully</string>
+    <string name="text_null">Some parameter is NULL!</string>
+    <string name="word_restriction">Word restriction</string>
+    <string name="publish_success">Published successfully</string>
+    <string name="published">Published by </string>
+    <string name="send">Send</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="cancel">Cancel</string>
+    <string name="publish">Publish</string>
+    <string name="submit">Submit</string>
+    <string name="sign_up">Sign up for all services!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="auto_login">Automatically Login</string>
+    <string name="login">Login in</string>
+    <string name="register">Register</string>
+    <string name="user">Username</string>
+    <string name="new_psw">New password</string>
+    <string name="once">Comfirm</string>
+    <string name="nick">nick</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="birthday">birthday</string>
+    <string name="information">Information(This parameter can be NULL.)</string>
+    <string name="profile">Profile</string>
+    <string name="baoliao">Baoliao</string>
+    <string name="log_out">Log out</string>
+    <string name="setting">Settings</string>
+
+    <string name="user_psw_wrong">Wrong Email/Password</string>
+    <string name="success">Success!</string>
+    <string name="error">Error!</string>
+    <string name="send_failed">Send failed</string>
+    <string name="mail_sended">The message has been sent by mai</string>
+    <string name="verify_success">Verified Successfully</string>
+    <string name="reg_success">Register successfully!</string>
+    <string name="modify_psw_success">Modify Password successfully!</string>
+    <string name="verify_fail">Verification Failed</string>
+    <string name="modify_psw">Modify password</string>
+    <string name="inconsistent">Inconsistent!</string>
+
+    <string name="forget_psw">Foget password?</string>
+    <string name="forget">Forget Password</string>
+    <string name="verify_mail">Verify by your mailbox!</string>
+    <string name="your_email">Your Email Address</string>
+    <string name="verify_code">Verification Code</string>
+    <string name="wrong_email">Please enter the correct Email address</string>
+
+
+    <string name="hello_world">This is an instance of Android</string>
+    <string name="switch_language">Switch Language</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="jump">Jump to Next Activity</string>
+    <string name="change">The language of the page has changed, too.</string>
+    <string name="showtext">You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.</string>
+
+
+</resources>

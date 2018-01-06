@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cancel"
+        android:layout_alignParentTop="true"
+        android:id="@+id/img_cancel"
+        android:layout_toStartOf="@+id/linearLayout" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/title"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:id="@+id/log_title"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textColor="@color/title"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/log_title"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:background="@color/title"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/et_psw_t"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/et_uname_t">
+            <EditText
+                android:id="@+id/et_uname"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:hint="@string/email"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_psw_t"
+            android:layout_above="@+id/auto_login"
+            android:layout_alignStart="@+id/et_uname_t">
+            <EditText
+                android:id="@+id/et_psw"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:hint="@string/password"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                 />
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/auto_login"
+            android:textStyle="normal"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auto_login"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/et_psw_t"
+            android:layout_alignEnd="@+id/et_psw_t" />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="@string/login"
+            android:clickable="false"
+            android:textColor="@color/title"
+            android:background="@drawable/log_button"
+            android:id="@+id/btn_login"
+            android:layout_below="@+id/auto_login"
+            android:layout_alignStart="@+id/auto_login" />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="@string/register"
+            android:id="@+id/btn_register"
+            android:textColor="@color/title"
+            android:background="@drawable/reg_buttom"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btn_login"
+            android:layout_alignStart="@+id/btn_login" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_psw"
+        android:textColor="@color/title"
+        android:id="@+id/forget_psw"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:clickable="true"/>
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/log_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:indicator="BallPulse"
+        app:indicator_color="@color/colorAccent"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:elevation="10dp"
+        />
+
+
+
+</RelativeLayout>

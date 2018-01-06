@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/pro_group">
+        <item
+            android:id="@+id/nav_shot"
+            android:icon="@drawable/shot"
+            android:title="@string/baoliao" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/fun_group">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/message"
+            android:title="@string/setting" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/log_group">
+        <item
+            android:id="@+id/nav_out"
+            android:icon="@drawable/logout"
+            android:title="@string/log_out" />
+    </group>
+</menu>
