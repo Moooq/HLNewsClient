@@ -215,6 +215,7 @@ public class Register_Profile extends Fragment {
         datePickerDialog.show();
     }
 
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
